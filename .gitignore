@@ -129,10 +129,22 @@ dmypy.json
 .pyre/
 
 
-data/*.csv
+#data/*.csv
 models/*.sav
 mlruns
 models/*
 
 #config file has sensitive data
 .mlflow_uri
+
+
+# Adding the different data foldes
+data/
+Testing/
+Training/
+unprocessedDataset/
+Self_augmented_data_from_unprocessed_Training_directory/
+data_few_images_to_try/
+Crystal_Clean_Brain_Tumors_MRI_Dataset/
+augmented_images/
+
